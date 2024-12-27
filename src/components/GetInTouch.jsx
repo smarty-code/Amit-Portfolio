@@ -42,21 +42,21 @@ const ContactForm = () => {
               <div className="flex flex-row py-5 md:py-0 justify-center md:justify-start md:pl-4">
                 <div className="mr-6">
                   <img
-                    src="src/assets/github.svg"
+                    src="https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297962/github_hobwoh.svg"
                     alt="Github"
                     className="h-12 w-12 rounded"
                   />
                 </div>
                 <div className="mr-6">
                   <img
-                    src="src/assets/x.svg"
+                    src="https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297966/x_phnaw3.svg"
                     alt="X"
                     className="h-12 w-12 rounded"
                   />
                 </div>
                 <div className="mr-6">
                   <img
-                    src="src/assets/linkedin.svg"
+                    src="https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297966/linkedin_rmt0ls.svg"
                     alt="LinkedIn"
                     className="h-12 w-12 rounded"
                   />
