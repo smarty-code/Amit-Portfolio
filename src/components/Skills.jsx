@@ -1,37 +1,45 @@
-import React from "react";
+import HTML from "../assets/skills/HTML.svg";
+import CSS from "../assets/skills/CSS.svg";
+import GIT from "../assets/skills/git.svg";
+import TailwindCSS from "../assets/skills/tailwindcss.svg";
+import JavaScript from "../assets/skills/javascript.svg";
+import Figma from "../assets/skills/figma.svg";
+import ReactJS from "../assets/skills/react.svg";
+import NextJS from "../assets/skills/next-js.svg";
+
 import "../index.css";
 
 const SkillData = [
   {
-    icon: "src/assets/skills/HTML.svg",
+    icon: HTML,
     name: "HTML",
   },
   {
-    icon: "src/assets/skills/CSS.svg",
+    icon: CSS,
     name: "CSS",
   },
   {
-    icon: "src/assets/skills/git.svg",
+    icon: GIT,
     name: "GIT",
   },
   {
-    icon: "src/assets/skills/tailwindcss.svg",
+    icon: TailwindCSS,
     name: "TailwindCSS",
   },
   {
-    icon: "src/assets/skills/javascript.svg",
+    icon: JavaScript,
     name: "JavaScript",
   },
   {
-    icon: "src/assets/skills/figma.svg",
+    icon: Figma,
     name: "Figma",
   },
   {
-    icon: "src/assets/skills/react.svg",
+    icon: ReactJS,
     name: "React JS",
   },
   {
-    icon: "src/assets/skills/next-js.svg",
+    icon: NextJS,
     name: "Next JS",
   },
 ];
@@ -48,6 +56,7 @@ function Skills() {
         <div className=" m-5 flex justify-center items-center flex-wrap">
           <div className=" lg:gap-16 grid md:grid-cols-4 grid-cols-2 gap-5">
             {SkillData.map((skill) => (
+              // eslint-disable-next-line react/jsx-key
               <div className="h-40 w-40 border-2 border-black text-center rounded ">
                 <img
                   className="w-12 h-12 mt-6 inline-block "
