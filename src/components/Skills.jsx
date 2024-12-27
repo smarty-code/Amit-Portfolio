@@ -1,45 +1,36 @@
-import HTML from "../assets/skills/HTML.svg";
-import CSS from "../assets/skills/CSS.svg";
-import GIT from "../assets/skills/git.svg";
-import TailwindCSS from "../assets/skills/tailwindcss.svg";
-import JavaScript from "../assets/skills/javascript.svg";
-import Figma from "../assets/skills/figma.svg";
-import ReactJS from "../assets/skills/react.svg";
-import NextJS from "../assets/skills/next-js.svg";
-
 import "../index.css";
 
 const SkillData = [
   {
-    icon: HTML,
+    icon: "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297969/HTML_rjnncz.svg",
     name: "HTML",
   },
   {
-    icon: CSS,
+    icon: "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297967/CSS_gjjdbx.svg",
     name: "CSS",
   },
   {
-    icon: GIT,
+    icon: "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297969/git_uk6jmv.svg",
     name: "GIT",
   },
   {
-    icon: TailwindCSS,
+    icon: "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297967/CSS_gjjdbx.svg",
     name: "TailwindCSS",
   },
   {
-    icon: JavaScript,
+    icon: "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297969/JavaScript_fhymmy.svg",
     name: "JavaScript",
   },
   {
-    icon: Figma,
+    icon: "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297968/figma_wbxkr7.svg",
     name: "Figma",
   },
   {
-    icon: ReactJS,
+    icon: "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297964/react_ahxcyu.svg",
     name: "React JS",
   },
   {
-    icon: NextJS,
+    icon: "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297962/next-js_toi7hf.svg",
     name: "Next JS",
   },
 ];
