@@ -3,7 +3,7 @@ import "../index.css";
 
 const ExperienceData = [
   {
-    icon: "src/assets/google.svg",
+    icon: "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297962/google_sc9min.svg",
     name: "Google",
     role: "Lead Software Engineer",
     date: "Nov 2019 - Present",
@@ -11,7 +11,7 @@ const ExperienceData = [
       "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
   },
   {
-    icon: "src/assets/youtube.svg",
+    icon: "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297968/youtube_indgob.svg",
     name: "YouTube",
     role: "Lead Software Engineer",
     date: "Nov 2019 - Present",
@@ -19,7 +19,7 @@ const ExperienceData = [
       "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
   },
   {
-    icon: "src/assets/apple.svg",
+    icon: "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297962/apple_o7lxnw.svg",
     name: "Apple",
     role: "Lead Software Engineer",
     date: "Nov 2019 - Present",
@@ -43,6 +43,7 @@ function Expreience() {
           </div>
           <div className="p-8">
             {ExperienceData.map((experience) => (
+              // eslint-disable-next-line react/jsx-key
               <div className="border-2 rounded-xl mt-5 mb-10">
                 <div className="p-8">
                   <div className="md:flex justify-between items-center">

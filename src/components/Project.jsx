@@ -7,7 +7,8 @@ const ProjectData = [
     title: "Crypto Screener Application",
     description:
       "I'm Evren Shah. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    image: "/assets/png.svg", // Assuming images are in the public/assets folder
+    image:
+      "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297967/png_efbmnb.svg", // Assuming images are in the public/assets folder
     link: "https://example.com",
   },
   {
@@ -15,7 +16,8 @@ const ProjectData = [
     title: "Crypto Screener Application",
     description:
       "I'm Evren Shah. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    image: "/assets/png.svg",
+    image:
+      "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297967/png_efbmnb.svg",
     link: "https://example.com",
   },
   {
@@ -23,7 +25,8 @@ const ProjectData = [
     title: "Crypto Screener Application",
     description:
       "I'm Evren Shah. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    image: "/assets/png.svg",
+    image:
+      "https://res.cloudinary.com/dnbeaiurw/image/upload/v1735297967/png_efbmnb.svg",
     link: "https://example.com",
   },
 ];
