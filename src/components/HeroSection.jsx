@@ -1,5 +1,7 @@
-import React from "react";
 import heroImg from "../assets/heroimg.svg";
+import github from "../assets/github.svg";
+import linkedin from "../assets/linkedin.svg";
+import x from "../assets/x.svg";
 
 const HeroSection = () => (
   <div className="flex flex-col mt-10 m-4 md:flex-row-reverse ">
@@ -44,17 +46,17 @@ const HeroSection = () => (
         <div className="flex space-x-4 mt-5 lg:pt- items-start">
           <img
             className=" lg:h-14 lg:w-14 cursor-pointer h-12 w-12 md:block"
-            src="src/assets/github.svg"
+            src={github}
             alt="Github"
           />
           <img
             className="cursor-pointer lg:h-14 lg:w-14 h-12 w-12 md:block"
-            src="src/assets/x.svg"
+            src={x}
             alt="X"
           />
           <img
             className="cursor-pointer lg:h-14 lg:w-14 h-12 w-12 md:block"
-            src="src/assets/linkedin.svg"
+            src={linkedin}
             alt="LinkedIn"
           />
         </div>
